@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Pacifico&family=Saira+Condensed&family=Satisfy&display=swap');
+*{  background-image: url('emailbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* background-color: rgb(224, 189, 222); */
+    /* font-family: 'Caveat', cursive; */
+/* font-family: 'Pacifico', cursive; */
+font-family: 'Saira Condensed', sans-serif;
+/* font-family: 'Satisfy', cursive; */
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 19px 12px;
+
+}
+ul{
+    display: flex;
+    /* background-color: black; */
+}
+ul li{
+    list-style: none;
+    padding: 0 13px;
+    font-size: 13px;
+    /* background-color: black; */
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+ul li a:hover{
+    color: rgb(141, 97, 97);
+}
+main{
+    min-height: 80vh;
+    padding: 2px;
+}
+.logo span{
+    font-size: 2rem;
+}
+.logo img{
+    width: 40px;
+    /* filter: invert(1); */
+}
+.container{
+    /* background-color: azure; */
+    max-width: 80vw;
+    margin: auto;
+    padding: 9px 15px;
+    font-size: 1.2rem;
+    color: bisque;
+}
+.container h1{
+    padding: 12px 0;
+}
+input[type='text']{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid yellow;
+    border-radius: 7px;
+    font-size: 1rem;
+    color: aliceblue;
+    /* size: 2rem; */
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background: black;
+    color: aliceblue;
+    padding: 9px 12px;
+    border: 2px solid white ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(170, 180, 26);
+}
+#resultCont div::first-letter{
+    text-transform:uppercase;
+}
+/* @media only screen and (max-width:600px){
+    body{
+        background-color: antiquewhite;
+    }
+    
+} */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: antiquewhite;
+    }
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0;
+    }
+    .logo img{
+        width: 35px;
+        /* filter: invert(1); */
+    }
+    .logo span{
+        font-size: 20px;
+    }
+}
+
